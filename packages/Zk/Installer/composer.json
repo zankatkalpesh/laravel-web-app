@@ -1,0 +1,25 @@
+{
+    "name": "zk/lwa-installer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zankat Kalpesh",
+            "email": "zankatkalpesh@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Zk\\Installer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zk\\Installer\\Providers\\InstallerServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

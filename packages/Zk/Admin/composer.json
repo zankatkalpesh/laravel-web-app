@@ -1,0 +1,25 @@
+{
+    "name": "zk/lwa-admin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zankat Kalpesh",
+            "email": "zankatkalpesh@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Zk\\Admin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zk\\Admin\\Providers\\AdminServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

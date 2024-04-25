@@ -1,0 +1,25 @@
+{
+    "name": "zk/lwa-core",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zankat Kalpesh",
+            "email": "zankatkalpesh@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Zk\\Core\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zk\\Core\\Providers\\CoreServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
